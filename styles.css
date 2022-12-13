@@ -2,5 +2,13 @@
             src: url('./fonts/Merriweather/Merriweather-Bold.ttf')}
 
 body{
-    font-family: Merriweather;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-page {
+    width: 40rem;
+    height: 70rem;
+    background: no-repeat center url(./images/laptop-screen-opening.jpg);
+    background-size: cover;
 }
