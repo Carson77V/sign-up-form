@@ -3,12 +3,24 @@
 
 body{
     display: flex;
-    flex-direction: row;
+    margin: 0;
 }
 
 .title-page {
-    width: 40rem;
-    height: 70rem;
+    width: 40vw;
+    height: 100vh;
     background: no-repeat center url(./images/laptop-screen-opening.jpg);
     background-size: cover;
+}
+
+.author-credit{
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 60vw;
+    height: 100vh;
 }
