@@ -1,0 +1,6 @@
+@font-face {font-family: Merriweather-bold;
+            src: url('./fonts/Merriweather/Merriweather-Bold.ttf')}
+
+body{
+    font-family: Merriweather;
+}
