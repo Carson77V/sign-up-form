@@ -58,7 +58,7 @@ body{
 }
 
 .title-page {
-    width: min(40vw, 500px);
+    width: min(40vw, 480px);
     height: 100vh;
     background: no-repeat center url(./images/laptop-screen-opening.jpg);
     background-size: cover;
@@ -73,31 +73,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(3rem, 5.2vw, 4.5rem);
+    font-size: clamp(3rem, 5.1vw, 4.5rem);
     margin-top: 18vh;
     width: 100%;
     height: 7rem;
 }
 
 .title > img {
-    height: clamp(4rem, 7vw, 6.4rem);
+    height: clamp(4rem, 6.8vw, 6.4rem);
 }
 
 .author-credit{
     color: rgb(255, 255, 255, .7);
     margin: auto 1rem 1rem;
-    font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+    font-size: clamp(0.7rem, 1.1vw, 0.9rem);
 }
 
 :link, :visited {
     color: rgb(255, 255, 255, .7);
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
-    background-color: green;
-    width: 60vw;
+    background-color: #eeeeee;
+    width: min(60vw, 720px);
     height: 100vh;
 }
 
+.text {
+    
+}
+div > p {
+    font-family: Arial, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    width: 45vw;
+}
+
+fieldset>div{
+    display: flex;
+    flex-direction: column;
+}
