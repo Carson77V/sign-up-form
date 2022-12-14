@@ -66,6 +66,13 @@ body{
     align-items: center;
 }
 
+.title {
+    font-family: Merriweather-Bold, Arial, Helvetica, Tahoma;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
 .author-credit{
     color: white;
     margin: auto 1rem 1rem;
