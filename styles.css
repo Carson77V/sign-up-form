@@ -71,6 +71,11 @@ body{
     color: white;
     display: flex;
     align-items: center;
+    font-size: 3.8rem;
+}
+
+.title > img {
+    height: 5rem;
 }
 
 .author-credit{
