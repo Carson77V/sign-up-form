@@ -71,7 +71,12 @@ body{
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 3.8rem;
+    margin-top: 18vh;
+    padding: 1rem;
+    background-color: blue;
+    width: 20rem;
 }
 
 .title > img {
@@ -79,15 +84,12 @@ body{
 }
 
 .author-credit{
-    color: white;
+    color: rgb(255, 255, 255, .7);
     margin: auto 1rem 1rem;
 }
 
-:link {
-    color: white;
-}
-:visited {
-    color: white;
+:link, :visited {
+    color: rgb(255, 255, 255, .7);
 }
 
 form {
