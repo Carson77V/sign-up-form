@@ -53,11 +53,12 @@ table {
 
 body{
     display: flex;
+    justify-content: center;
     margin: 0;
 }
 
 .title-page {
-    width: 40vw;
+    width: min(40vw, 500px);
     height: 100vh;
     background: no-repeat center url(./images/laptop-screen-opening.jpg);
     background-size: cover;
@@ -72,20 +73,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3.8rem;
+    font-size: clamp(3rem, 5.2vw, 4.5rem);
     margin-top: 18vh;
-    padding: 1rem;
-    background-color: blue;
-    width: 20rem;
+    width: 100%;
+    height: 7rem;
 }
 
 .title > img {
-    height: 5rem;
+    height: clamp(4rem, 7vw, 6.4rem);
 }
 
 .author-credit{
     color: rgb(255, 255, 255, .7);
     margin: auto 1rem 1rem;
+    font-size: clamp(0.7rem, 1.2vw, 0.9rem);
 }
 
 :link, :visited {
