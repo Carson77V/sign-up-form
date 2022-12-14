@@ -49,7 +49,8 @@ table {
 
 
 @font-face {font-family: Merriweather-bold;
-            src: url('./fonts/Merriweather/Merriweather-Bold.ttf')}
+            src: url('./fonts/Merriweather/Merriweather-Bold.ttf')
+}
 
 body{
     display: flex;
@@ -99,20 +100,42 @@ body{
     background-color: #eeeeee;
     width: min(60vw, 720px);
     height: 100vh;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .text {
-    
+    margin: 7rem 2rem 2rem;
 }
+
 div > p {
-    font-family: Arial, Tahoma, sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin: 1.4rem 1px;
     width: 45vw;
+}
+
+form {
+    padding: 2rem;
 }
 
 fieldset>div{
     display: flex;
     flex-direction: column;
+}
+
+button {
+    color: #efefef;
+    margin: 2rem;
+    background-color: rgb(38, 46, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444444;
+}
+
+.account-made {
+    margin: 2rem;
 }
