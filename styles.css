@@ -111,7 +111,7 @@ body{
 div > p {
     font-size: 1.4rem;
     margin: 1.4rem 1px;
-    width: 45vw;
+    width: min(45vw, 40rem);
 }
 
 form {
