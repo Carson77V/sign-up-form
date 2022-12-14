@@ -101,6 +101,7 @@ body{
     width: min(60vw, 720px);
     height: 100vh;
     font-family: Verdana, Tahoma, sans-serif;
+    color: black;
 }
 
 .text {
@@ -139,4 +140,12 @@ button {
 
 .account-made {
     margin: 2rem;
+    word-spacing: -1px;
+}
+
+.account-made > a:visited, 
+.account-made > a:link {
+    color: rgb(38, 48, 255, 0.8);
+    text-decoration: none;
+    word-spacing: -3px;
 }
