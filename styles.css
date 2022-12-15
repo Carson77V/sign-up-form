@@ -116,11 +116,16 @@ div > p {
 
 form {
     padding: 2rem;
+    background-color: white;
 }
 
-fieldset>div{
-    display: flex;
-    flex-direction: column;
+input {
+    width: 13rem;
+    height: 1.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(150, 150, 150, 0.3);
+    border-radius: 4px;
 }
 
 button {
@@ -136,6 +141,10 @@ button {
     border-width: 1px;
     border-color: #444444;
     box-shadow: 2px 2px 2px #999999;
+}
+
+button:hover {
+    background-color: rgb(38, 48, 215);
 }
 
 .account-made {
