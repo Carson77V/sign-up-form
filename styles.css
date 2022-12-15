@@ -97,11 +97,11 @@ body{
 .form {
     display: flex;
     flex-direction: column;
-    background-color: #eeeeee;
+    background-color: black;
     width: min(60vw, 720px);
     height: 100vh;
     font-family: Verdana, Tahoma, sans-serif;
-    color: black;
+    color: white;
 }
 
 .text {
@@ -116,8 +116,12 @@ div > p {
 
 fieldset {
     padding: 2rem;
-    background-color: white;
     height: 20vh;
+    margin-top: 2rem;
+}
+
+legend {
+    font-size: 1.2rem;
 }
 
 .grid-container {
@@ -132,19 +136,18 @@ fieldset {
 }
 
 input {
-    width: 13rem;
-    height: 1.25rem;
+    width: 13.5rem;
+    height: 1.3rem;
     border-style: solid;
-    border-width: 1px;
-    border-color: rgb(150, 150, 150, 0.3);
+    border-color: black;
     border-radius: 4px;
     outline: none;
+    margin-top: 2px;
 }
 
 input:focus {
-    border-color: rgb(38, 48, 215, 0.75);
+    border-color: rgb(48, 58, 215);
     border-width: 2px;
-    box-shadow: 2px 2px 2px #999999;
 }
 
 div > label {
@@ -157,20 +160,19 @@ div > input {
 button {
     color: white;
     margin: 2rem;
-    background-color: black;
+    background-color: rgb(38, 48, 215);
     font-size: 1.1rem;
     font-weight: 600;
     width: 12rem;
     height: 2.8rem;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #444444;
-    box-shadow: 2px 2px 2px #999999;
+    border-width: 0;
+    box-shadow: 2px 2px 2px #000000;
 }
 
 button:hover {
-    background-color: rgb(38, 48, 215);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 .account-made {
