@@ -114,7 +114,7 @@ div > p {
     width: min(45vw, 40rem);
 }
 
-form {
+fieldset {
     padding: 2rem;
     background-color: white;
     height: 20vh;
@@ -123,6 +123,7 @@ form {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    row-gap: 1rem;
 }
 
 .grid-container > div {
@@ -137,8 +138,22 @@ input {
     border-width: 1px;
     border-color: rgb(150, 150, 150, 0.3);
     border-radius: 4px;
+    outline: none;
 }
 
+input:focus {
+    border-color: rgb(38, 48, 215, 0.75);
+    border-width: 2px;
+    box-shadow: 2px 2px 2px #999999;
+}
+
+div > label {
+    font-size: .8rem;
+}
+
+div > input {
+    font-size: 0.9rem;
+}
 button {
     color: white;
     margin: 2rem;
